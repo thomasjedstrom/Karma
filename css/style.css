@@ -2,6 +2,91 @@ body {
 	background-color: LightGray;
 }
 
+
+/**
+ * Navigation Section
+ */
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+    z-index: 9999;
+}
+.top-navigation > .content {
+    height: 4.375rem;
+}
+.top-navigation .logo {
+    height: 4.375rem;
+}
+.top-navigation .links {
+    float: right;
+    color: #838994;
+    font-size: 1.04rem;
+    margin-top: 1.7rem;
+}
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 1.563rem;
+}
+.top-navigation .links li.active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 div {
-	border: 1px solid Chocolate;
+    width: 100%;
+    border: 1px solid Chocolate;
+}
+
+.navbar {
+    height: 80px;
+    border: 10px solid black;
+    padding-top: 20px;
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+/*    justify-content: space-between;*/
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: right;
+/*    margin: 1em, 15%, 1em, 1em;*/
+    padding: 1em;
+} 
+
+.navbar li {
+/*    margin: -20px 0 0 20px;*/
+    display: inline-block;
+    float: right;
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: Gray;
+    display: block;
+}
+
+a:hover {
+    color: black;
 }
