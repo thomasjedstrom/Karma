@@ -14,7 +14,9 @@ body {
     z-index: 9999;
 }
 .top-navigation > .content {
-    height: 4.375rem;
+    height: 70px;
+    width: 970px;
+    margin: 0 auto;
 }
 .top-navigation .logo {
     height: 4.375rem;
